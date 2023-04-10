@@ -13,9 +13,27 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <!-- обгортка контенту -->
-    <div>
-      <h1>Hello world</h1>
+    <!-- content wrapper -->
+    <div class="w-full">
+      <!-- header -->
+      <header>
+        <!-- container -->
+        <div
+          class="container mx-auto flex justify-between 2xl:px-69 xl:px-10 2xl:py-8 xl:py-6 items-center"
+        >
+          <!-- Logo -->
+          <div>
+            <img src="./assets/images/logo.png" alt="Logo" />
+          </div>
+          <!-- Button -->
+          <button
+            class="ease-in mr-106 border rounded-lg border-bordersColor h-10 w-28 hover:bg-buttonColor"
+            type="button"
+          >
+            <span>Sign in</span>
+          </button>
+        </div>
+      </header>
     </div>
   </body>
 </html>
