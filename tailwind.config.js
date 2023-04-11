@@ -638,7 +638,10 @@ module.exports = {
       md: '28rem',
       lg: '32rem',
       xl: '36rem',
+      220: '220px',
       270: '270px',
+      359: '359px',
+      459: '459px',
       559: '559px',
       '2xl': '42rem',
       '3xl': '48rem',
@@ -786,6 +789,7 @@ module.exports = {
       150: '1.5',
     },
     screens: {
+      ph: '320px',
       sm: '640px',
       md: '768px',
       lg: '1024px',
