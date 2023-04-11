@@ -133,6 +133,7 @@ module.exports = {
     colors: ({ colors }) => ({
       bordersColor: '#222222',
       buttonColor:'#FFD338',
+      gradientColor:'#FFF9E8',
       inherit: colors.inherit,
       current: colors.current,
       transparent: colors.transparent,

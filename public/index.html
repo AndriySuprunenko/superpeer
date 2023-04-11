@@ -13,14 +13,14 @@
     <!-- CSS -->
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
+  <body class="bg-gray-400">
     <!-- content wrapper -->
     <div class="w-full">
       <!-- header -->
-      <header>
+      <header class="w-full">
         <!-- container -->
         <div
-          class="container mx-auto flex justify-between 2xl:px-69 xl:px-10 2xl:py-8 xl:py-6 items-center"
+          class="container bg-white mx-auto flex justify-between 2xl:px-69 xl:px-10 2xl:py-8 xl:py-6 items-center"
         >
           <!-- Logo -->
           <div>
@@ -37,7 +37,9 @@
       </header>
 
       <!-- Banner -->
-      <section class="container mx-auto 2xl:py-24 xl:py-44 sm:py-20 ph:py-5 flex 2xl:flex-row lg:relative 2xl:px-52 xl:px-44 sm:px-20 ph:px-5 lg:flex-row ph:flex-col">
+      <section
+        class="container bg-white mx-auto 2xl:py-24 xl:py-44 sm:py-20 ph:py-5 flex 2xl:flex-row lg:relative 2xl:px-52 xl:px-44 sm:px-20 ph:px-5 lg:flex-row ph:flex-col"
+      >
         <!-- Text section -->
         <div class="max-w-smC">
           <!-- Title -->
@@ -59,7 +61,9 @@
         <!-- Images section -->
         <div class="w-full lg:static ph:relative">
           <!-- Phone image -->
-          <div class="2xl:max-w-270 2xl:ml-14 xl:max-w-220 sm:max-w-220 sm:ml-8">
+          <div
+            class="2xl:max-w-270 2xl:ml-14 xl:max-w-220 sm:max-w-220 sm:ml-8"
+          >
             <img
               class="w-full"
               src="./assets/images/banner/banner-img-phone.png"
@@ -67,7 +71,9 @@
             />
           </div>
           <!-- Desk image -->
-          <div class="w-full 2xl:max-w-559 absolute top-0 right-0 xl:max-w-459 sm:max-w-359">
+          <div
+            class="w-full 2xl:max-w-559 absolute top-0 right-0 xl:max-w-459 sm:max-w-359"
+          >
             <img
               class="w-full"
               src="./assets/images/banner/banner-img-desk.png"
@@ -78,7 +84,17 @@
       </section>
 
       <!-- Section Take 1:1 Video Calls -->
+      <section
+        class="container mx-auto bg-gradient-to-b from-gradientColor to-white w-full h-screen"
+      >
+        <div>
+          <img
+            class="w-full"
+            src="./assets/images/section1/decor-line.png"
+            alt="line"
+          />
+        </div>
+      </section>
     </div>
   </body>
 </html>
-
