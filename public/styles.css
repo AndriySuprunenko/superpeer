@@ -558,24 +558,12 @@ video {
   position: relative;
 }
 
+.right-0 {
+  right: 0px;
+}
+
 .top-0 {
   top: 0px;
-}
-
-.left-full {
-  left: 100%;
-}
-
-.left-1\/2 {
-  left: 50%;
-}
-
-.left-2\/3 {
-  left: 66.666667%;
-}
-
-.left-1\/3 {
-  left: 33.333333%;
 }
 
 .mx-auto {
@@ -595,28 +583,48 @@ video {
   margin-top: 2rem;
 }
 
+.mr-14 {
+  margin-right: 3.5rem;
+}
+
+.ml-14 {
+  margin-left: 3.5rem;
+}
+
 .flex {
   display: flex;
 }
 
-.h-10 {
-  height: 2.5rem;
-}
-
-.w-28 {
-  width: 7rem;
+.h-550 {
+  height: 550px;
 }
 
 .w-full {
   width: 100%;
 }
 
+.max-w-270 {
+  max-width: 270px;
+}
+
 .max-w-smC {
   max-width: 27.375rem;
 }
 
+.max-w-559 {
+  max-width: 559px;
+}
+
 .items-center {
   align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .justify-between {
@@ -646,9 +654,9 @@ video {
   padding-right: 13rem;
 }
 
-.py-24 {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .py-2 {
@@ -661,9 +669,9 @@ video {
   padding-bottom: 0.625rem;
 }
 
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
+.py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 
 .py-4 {
@@ -687,11 +695,6 @@ video {
 
 .hover\:border:hover {
   border-width: 1px;
-}
-
-.hover\:border-bordersColor:hover {
-  --tw-border-opacity: 1;
-  border-color: rgb(34 34 34 / var(--tw-border-opacity));
 }
 
 .hover\:bg-buttonColor:hover {
