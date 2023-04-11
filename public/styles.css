@@ -520,6 +520,12 @@ video {
   width: 100%;
 }
 
+@media (min-width: 320px) {
+  .container {
+    max-width: 320px;
+  }
+}
+
 @media (min-width: 640px) {
   .container {
     max-width: 640px;
@@ -587,6 +593,10 @@ video {
   width: 100%;
 }
 
+.max-w-smC {
+  max-width: 27.375rem;
+}
+
 .items-center {
   align-items: center;
 }
@@ -633,6 +643,11 @@ video {
   padding-bottom: 1rem;
 }
 
+.text-castomxl {
+  font-size: 4.25rem;
+  line-height: 1;
+}
+
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
@@ -656,9 +671,37 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+@media (min-width: 320px) {
+  .ph\:relative {
+    position: relative;
+  }
+
+  .ph\:flex-col {
+    flex-direction: column;
+  }
+
+  .ph\:px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .ph\:py-5 {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+}
+
 @media (min-width: 640px) {
   .sm\:ml-8 {
     margin-left: 2rem;
+  }
+
+  .sm\:max-w-220 {
+    max-width: 220px;
+  }
+
+  .sm\:max-w-359 {
+    max-width: 359px;
   }
 
   .sm\:px-20 {
@@ -687,6 +730,14 @@ video {
 }
 
 @media (min-width: 1280px) {
+  .xl\:max-w-220 {
+    max-width: 220px;
+  }
+
+  .xl\:max-w-459 {
+    max-width: 459px;
+  }
+
   .xl\:px-10 {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
@@ -711,6 +762,14 @@ video {
 @media (min-width: 1440px) {
   .\32xl\:ml-14 {
     margin-left: 3.5rem;
+  }
+
+  .\32xl\:max-w-270 {
+    max-width: 270px;
+  }
+
+  .\32xl\:max-w-559 {
+    max-width: 559px;
   }
 
   .\32xl\:flex-row {
