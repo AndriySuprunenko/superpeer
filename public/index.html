@@ -10,6 +10,7 @@
       rel="stylesheet"
       href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
     />
+    <!-- CSS -->
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -23,11 +24,11 @@
         >
           <!-- Logo -->
           <div>
-            <img src="./assets/images/logo.png" alt="Logo" />
+            <img class="w-full" src="./assets/images/logo.png" alt="Logo" />
           </div>
           <!-- Button -->
           <button
-            class="ease-in mr-106 border rounded-lg border-bordersColor h-10 w-28 hover:bg-buttonColor"
+            class="ease-in mr-106 border rounded-lg border-bordersColor py-2.5 px-8 hover:bg-buttonColor"
             type="button"
           >
             <span>Sign in</span>
@@ -36,9 +37,48 @@
       </header>
 
       <!-- Banner -->
-      <div>
-        
-      </div>
+      <section class="container mx-auto 2xl:py-24 xl:py-44 sm:py-20 ph:py-5 flex 2xl:flex-row lg:relative 2xl:px-52 xl:px-44 sm:px-20 ph:px-5 lg:flex-row ph:flex-col">
+        <!-- Text section -->
+        <div class="max-w-smC">
+          <!-- Title -->
+          <h1 class="text-castomxl">
+            A video platform for the world’s leading minds
+          </h1>
+          <!-- Text -->
+          <p class="text-xl mt-7">
+            Superpeer gives you the tools you need to have paid 1:1 video calls
+            and livestreams with your audience and paid subscribers.
+          </p>
+          <!-- Button -->
+          <button
+            class="ease-in mt-8 rounded-lg bg-buttonColor px-8 py-4 hover:bg-white hover:border border-bordersColor"
+          >
+            <span>REQUEST INVITE</span>
+          </button>
+        </div>
+        <!-- Images section -->
+        <div class="w-full lg:static ph:relative">
+          <!-- Phone image -->
+          <div class="2xl:max-w-270 2xl:ml-14 xl:max-w-220 sm:max-w-220 sm:ml-8">
+            <img
+              class="w-full"
+              src="./assets/images/banner/banner-img-phone.png"
+              alt="phone"
+            />
+          </div>
+          <!-- Desk image -->
+          <div class="w-full 2xl:max-w-559 absolute top-0 right-0 xl:max-w-459 sm:max-w-359">
+            <img
+              class="w-full"
+              src="./assets/images/banner/banner-img-desk.png"
+              alt="desktop"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Section Take 1:1 Video Calls -->
     </div>
   </body>
 </html>
+
