@@ -107,6 +107,7 @@ module.exports = {
     },
     boxShadow: {
       sm: '0 1px 2px 0 rgb(0 0 0 / 0.05)',
+      shadowIcon: '4px 4px 0 #EEEEEE',
       DEFAULT: '0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1)',
       md: '0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)',
       lg: '0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)',
@@ -132,6 +133,7 @@ module.exports = {
     caretColor: ({ theme }) => theme('colors'),
     colors: ({ colors }) => ({
       bordersColor: '#222222',
+      bgIcon: '#EEEEEE',
       textColor: '#555555',
       buttonColor:'#FFD338',
       gradientColor:'#FFF9E8',
@@ -824,7 +826,9 @@ module.exports = {
     }),
     spacing: {
       px: '1px',
+      17: '17px',
       25: '25px',
+      58: '58px',
       69: '69px',
       103: '103px',
       106: '106px',
@@ -989,6 +993,7 @@ module.exports = {
       '9/12': '75%',
       '10/12': '83.333333%',
       '11/12': '91.666667%',
+      58: '58px',
       full: '100%',
       screen: '100vw',
       min: 'min-content',
