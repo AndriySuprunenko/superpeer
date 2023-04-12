@@ -135,6 +135,7 @@ module.exports = {
       textColor: '#555555',
       buttonColor:'#FFD338',
       gradientColor:'#FFF9E8',
+      gradientColor2:'#F0ECFF',
       inherit: colors.inherit,
       current: colors.current,
       transparent: colors.transparent,

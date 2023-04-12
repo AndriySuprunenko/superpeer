@@ -564,6 +564,10 @@ video {
   position: relative;
 }
 
+.left-72 {
+  left: 18rem;
+}
+
 .right-0 {
   right: 0px;
 }
@@ -572,44 +576,8 @@ video {
   top: 0px;
 }
 
-.top-1\/2 {
-  top: 50%;
-}
-
-.top-1\/3 {
-  top: 33.333333%;
-}
-
 .top-1\/4 {
   top: 25%;
-}
-
-.left-1\/4 {
-  left: 25%;
-}
-
-.start-1\/4 {
-  inset-inline-start: 25%;
-}
-
-.start-1\/2 {
-  inset-inline-start: 50%;
-}
-
-.left-20 {
-  left: 5rem;
-}
-
-.left-72 {
-  left: 18rem;
-}
-
-.left-1\/2 {
-  left: 50%;
-}
-
-.right-1\/2 {
-  right: 50%;
 }
 
 .z-50 {
@@ -685,12 +653,12 @@ video {
   max-width: 330px;
 }
 
-.max-w-smC {
-  max-width: 27.375rem;
-}
-
 .max-w-850 {
   max-width: 850px;
+}
+
+.max-w-smC {
+  max-width: 27.375rem;
 }
 
 .flex-col {
@@ -757,6 +725,14 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
+.from-gradientColor2 {
+  --tw-gradient-from: #F0ECFF var(--tw-gradient-from-position);
+  --tw-gradient-from-position:  ;
+  --tw-gradient-to: rgb(240 236 255 / 0)  var(--tw-gradient-from-position);
+  --tw-gradient-to-position:  ;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
 .to-white {
   --tw-gradient-to: #fff var(--tw-gradient-to-position);
   --tw-gradient-to-position:  ;
@@ -785,6 +761,10 @@ video {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.pb-103 {
+  padding-bottom: 103px;
 }
 
 .pb-80 {
