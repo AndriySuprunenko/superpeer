@@ -613,12 +613,16 @@ video {
   margin-right: 106px;
 }
 
-.mr-32 {
-  margin-right: 8rem;
-}
-
 .mr-4 {
   margin-right: 1rem;
+}
+
+.mr-6 {
+  margin-right: 1.5rem;
+}
+
+.mr-mrLink {
+  margin-right: 32px;
 }
 
 .mt-10 {
@@ -675,10 +679,6 @@ video {
 
 .mt-8 {
   margin-top: 2rem;
-}
-
-.mr-mrLink {
-  margin-right: 32px;
 }
 
 .block {
