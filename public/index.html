@@ -12,6 +12,16 @@
     />
     <!-- CSS -->
     <link rel="stylesheet" href="styles.css" />
+    <!-- Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <style>
+      .swiper-pagination-bullet {
+        background-color: #ffd338;
+      }
+    </style>
   </head>
   <body class="bg-gray-400">
     <!-- content wrapper -->
@@ -404,6 +414,95 @@
           </div>
         </div>
       </section>
+
+      <!-- Slider -->
+      <section
+        class="flex items-center flex-col container mx-auto bg-gradientColor w-full px-44 pb-20 relative"
+      >
+        <!-- Title -->
+        <h2 class="text-5.5xl text-bordersColor mt-8">Pricing</h2>
+        <!-- Slider -->
+        <div class="w-full">
+          <!-- navigation buttons -->
+          <div
+            class="button-prev text-borderColor absolute left-282 top-247 w-50 h-50 rounded-full bg-buttonColor flex items-center justify-center"
+          >
+            <img src="./assets/images/arrow/VectorL.png" alt="left" />
+          </div>
+          <div
+            class="button-next text-borderColor absolute right-282 top-247 w-50 h-50 rounded-full bg-buttonColor flex items-center justify-center"
+          >
+            <img src="./assets/images/arrow/Vector.png" alt="right" />
+          </div>
+        </div>
+        <div class="swiper mt-69 swiper-container">
+          <!-- wrapper -->
+          <div class="swiper-wrapper max-w-2xl">
+            <!-- Slides 1-->
+            <div class="swiper-slide p-1 max-w-350">
+              <div
+                class="bg-bordersColor py-10 px-14 rounded-30 shadow-shadowSwiper flex flex-col items-center"
+              >
+                <h3 class="text-white text-19">1:1 Calls</h3>
+                <div class="text-50 mt-2.5 font-normal">
+                  <span class="text-colorSwiper mr-4 line-through">10%</span
+                  ><span class="text-white">0%</span>
+                </div>
+                <span class="text-colorSwiper mt-5 block"
+                  >Just Credit Card fees - 3%</span
+                >
+              </div>
+            </div>
+            <!-- Slides 2-->
+            <div class="swiper-slide p-1 max-w-350">
+              <div
+                class="bg-bordersColor py-10 px-14 rounded-30 shadow-shadowSwiper flex flex-col items-center"
+              >
+                <h3 class="text-white text-19">Channels</h3>
+                <div class="text-50 mt-2.5 font-normal">
+                  <span class="text-white">10%</span>
+                </div>
+                <span class="text-colorSwiper mt-5 block"
+                  >Plus Credit Card fees - 3%</span
+                >
+              </div>
+            </div>
+            <!-- Slides 3-->
+            <div class="swiper-slide p-1 max-w-350">
+              <div
+                class="bg-bordersColor py-10 px-14 rounded-30 shadow-shadowSwiper flex flex-col items-center"
+              >
+                <h3 class="text-white text-19">1:1 Calls</h3>
+                <div class="text-50 mt-2.5 font-normal">
+                  <span class="text-colorSwiper mr-4 line-through">10%</span
+                  ><span class="text-white">0%</span>
+                </div>
+                <span class="text-colorSwiper mt-5 block"
+                  >Just Credit Card fees - 3%</span
+                >
+              </div>
+            </div>
+            <!-- Slides 4-->
+            <div class="swiper-slide p-1 max-w-350">
+              <div
+                class="bg-bordersColor py-10 px-14 rounded-30 shadow-shadowSwiper flex flex-col items-center"
+              >
+                <h3 class="text-white text-19">Channels</h3>
+                <div class="text-50 mt-2.5 font-normal">
+                  <span class="text-white">10%</span>
+                </div>
+                <span class="text-colorSwiper mt-5 block"
+                  >Plus Credit Card fees - 3%</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- pagination -->
+        <div class="pagination flex mx-auto justify-center mt-7"></div>
+      </section>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./swiper.js"></script>
   </body>
 </html>
