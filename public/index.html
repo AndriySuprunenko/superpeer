@@ -17,7 +17,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
     <style>
       .swiper-pagination-bullet {
         background-color: #ffd338;
@@ -31,15 +31,15 @@
       <header class="w-full">
         <!-- container -->
         <div
-          class="container bg-white mx-auto flex justify-between 2xl:px-69 xl:px-10 2xl:py-8 xl:py-6 items-center"
+          class="container bg-white mx-auto flex justify-between 2xl:px-69 xl:px-10 2xl:py-8 xl:py-6 ph:p-2.5 items-center"
         >
           <!-- Logo -->
-          <div>
+          <div class="sm:w-343 ph:w-40">
             <img class="w-full" src="./assets/images/logo.png" alt="Logo" />
           </div>
           <!-- Button -->
           <button
-            class="ease-in mr-106 border rounded-lg border-bordersColor py-2.5 px-8 hover:bg-buttonColor"
+            class="ease-in lg:mr-106 ph:mr-4 border rounded-lg border-bordersColor sm:py-2.5 ph:py-1 sm:px-8 ph:px-4 hover:bg-buttonColor sm:text-base ph:text-sm"
             type="button"
           >
             <span>Sign in</span>
@@ -49,31 +49,35 @@
 
       <!-- Banner -->
       <section
-        class="container bg-white mx-auto 2xl:py-24 xl:py-44 sm:py-20 ph:py-5 flex 2xl:flex-row lg:relative 2xl:px-52 xl:px-44 sm:px-20 ph:px-5 lg:flex-row ph:flex-col"
+        class="ph:flex ph:items-center ph:flex-col lg:flex-row container bg-white mx-auto 2xl:py-24 xl:py-44 sm:py-20 ph:py-5 flex 2xl:flex-row lg:relative 2xl:px-52 xl:px-44 sm:px-20 ph:px-5 lg:flex-row ph:flex-col"
       >
         <!-- Text section -->
-        <div class="max-w-smC">
+        <div
+          class="max-w-smC ph:flex ph:items-center ph:flex-col ph:text-center lg:text-start lg:items-start"
+        >
           <!-- Title -->
-          <h1 class="text-castomxl text-bordersColor">
+          <h1
+            class="xl:text-castomxl md:text-5xl ph:text-4xl text-bordersColor"
+          >
             A video platform for the world’s leading minds
           </h1>
           <!-- Text -->
-          <p class="text-xl mt-7 text-textColor">
+          <p class="md:text-xl ph:text-base mt-7 text-textColor">
             Superpeer gives you the tools you need to have paid 1:1 video calls
             and livestreams with your audience and paid subscribers.
           </p>
           <!-- Button -->
           <button
-            class="ease-in mt-8 rounded-lg bg-buttonColor px-8 py-4 hover:bg-white hover:border border-bordersColor"
+            class="ease-in sm:text-base ph:text-sm mt-8 rounded-lg bg-buttonColor sm:px-8 ph:px-6 sm:py-4 ph:py-2 hover:bg-white hover:border border-bordersColor max-w-189"
           >
             <span>REQUEST INVITE</span>
           </button>
         </div>
         <!-- Images section -->
-        <div class="w-full lg:static ph:relative">
+        <div class="w-full ph:flex ph:justify-center lg:justify-start">
           <!-- Phone image -->
           <div
-            class="2xl:max-w-270 2xl:ml-14 xl:max-w-220 sm:max-w-220 sm:ml-8"
+            class="2xl:max-w-270 2xl:ml-14 xl:max-w-220 ph:max-w-220 ph:mt-8"
           >
             <img
               class="w-full"
@@ -83,7 +87,7 @@
           </div>
           <!-- Desk image -->
           <div
-            class="w-full 2xl:max-w-559 absolute top-0 right-0 xl:max-w-459 sm:max-w-359"
+            class="w-full 2xl:max-w-559 absolute top-0 right-0 xl:max-w-459 sm:max-w-359 ph:hidden lg:block"
           >
             <img
               class="w-full"
